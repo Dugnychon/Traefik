@@ -82,6 +82,7 @@
           - /var/run/docker.sock:/var/run/docker.sock:ro
           - /etc/localtime:/etc/localtime:ro
           - /pg/data/traefik/traefik.toml:/etc/traefik/traefik.toml:ro
+          - /pg/data/traefik/servers.toml:/etc/traefik/servers.toml:ro
           - /pg/data/traefik/acme:/etc/traefik/acme
         restart_policy: unless-stopped
         state: started
