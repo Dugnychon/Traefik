@@ -5,7 +5,12 @@
 # URL:        https://pgblitz.com - http://github.pgblitz.com
 # GNU:        General Public License v3.0
 ################################################################################
-
+[file]
+  filename = "servers.toml"
+  # Enable watch file changes
+  watch = true
+  
+  
 insecureskipverify = true
 
 logLevel = "WARN"
